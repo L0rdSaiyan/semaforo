@@ -1,5 +1,5 @@
 body{
-
+    
     min-height: 100vh;
     background-image: linear-gradient(120deg, rgb(24, 67, 221), rgb(204, 204, 204));
     display: flex;
