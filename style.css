@@ -7,6 +7,45 @@ body{
     justify-content: center;
 }
 
+#cabecario{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 1000vh;
+    margin-bottom: 580px;
+    border-bottom: 1px solid black;
+    
+
+}
+
+img{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 330px;
+    transition: 200ms;
+
+}
+
+img:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+         
+}
+
+p{
+
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    transition: 200ms;
+
+}
+
 @keyframes semaforo1{
 
     from {background-color: white;}
@@ -79,7 +118,7 @@ body{
     position: absolute;
     animation-name: semaforo3;
     animation-iteration-count: infinite;
-    animation-delay: 3s;
+    animation-delay: 1s;
     animation-duration: 2s;
     
 
