@@ -1,5 +1,5 @@
 body{
-    
+
     min-height: 100vh;
     background-image: linear-gradient(120deg, rgb(24, 67, 221), rgb(204, 204, 204));
     display: flex;
@@ -33,9 +33,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(22, 21, 21);
     height: 500px;
     width: 300px;
+    border-radius: 40px;
 
 }
 
@@ -49,8 +50,9 @@ body{
     margin-bottom: 310px;
     animation-name: semaforo1;
     animation-iteration-count: infinite;
+    animation-delay: 1s;
     animation-duration: 2s;
-    animation-delay: 2s;
+
 }
 
  #filho2{
@@ -62,8 +64,9 @@ body{
     position: absolute;
     animation-name: semaforo2;
     animation-iteration-count: infinite;
+    animation-delay: 1s;
     animation-duration: 2s;
-    animation-delay: 4s;
+    
  }
 
  #filho3{
@@ -76,7 +79,8 @@ body{
     position: absolute;
     animation-name: semaforo3;
     animation-iteration-count: infinite;
+    animation-delay: 3s;
     animation-duration: 2s;
-    animation-delay: 4s;
+    
 
  }
